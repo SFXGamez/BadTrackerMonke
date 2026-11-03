@@ -4,10 +4,10 @@ using Photon.Pun;
 using System;
 using System.Text;
 
-namespace StealthRoomGenerator
+namespace BadTrackerMonke
 {
     [BepInPlugin("com.username.badtrackermonke", "BadTrackerMonke", "1.0.0")]
-    public class StealthRoomPlugin : BaseUnityPlugin
+    public class BadTrackerMonke : BaseUnityPlugin
     {
         private const string Alphanumeric = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
         private static readonly Random RandomSource = new Random();
